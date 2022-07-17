@@ -9,6 +9,7 @@ cask "docker"
 cask "iterm2"
 cask "visual-studio-code"
 brew "node"
+brew "nvm"
 
 # Browsers
 cask "google-chrome"
