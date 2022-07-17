@@ -1,5 +1,24 @@
 # setup
 
+## MacOS Preferences
+
+The following changes aren't applied until you log out and back in.
+
+### Trackpad speed
+
+```sh
+defaults write -g com.apple.trackpad.scaling 2
+```
+
+### Key repeat rate
+
+The normal minimum for InitialKeyRepeat is 15 (225 ms) and for KeyRepeat it's 2 (30 ms).
+
+```sh
+defaults write -g InitialKeyRepeat -int 10
+defaults write -g KeyRepeat -int 1
+```
+
 ## Generate SSH keys
 
 ```sh
@@ -19,22 +38,3 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a
 ```
 
 https://brew.sh/index_de
-
-## Mac Preferences
-
-The following changes aren't applied until you log out and back in.
-
-### Trackpad speed
-
-```sh
-defaults write -g com.apple.trackpad.scaling 2
-```
-
-### Key repeat rate
-
-The normal minimum for InitialKeyRepeat is 15 (225 ms) and for KeyRepeat it's 2 (30 ms).
-
-```sh
-defaults write -g InitialKeyRepeat -int 10
-defaults write -g KeyRepeat -int 1
-```
