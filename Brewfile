@@ -1,7 +1,12 @@
 # Generic: Taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
+
+# Generic: Monospace fonts
+cask "font-awesome-terminal-fonts"
+cask "font-fira-code"
 
 # Dev essentials
 brew "git"
@@ -10,6 +15,7 @@ cask "iterm2"
 cask "visual-studio-code"
 brew "node"
 brew "nvm"
+brew "openjdk"
 
 # Browsers
 cask "google-chrome"
@@ -29,8 +35,8 @@ cask "vlc"
 # Social
 cask "telegram"
 cask "whatsapp"
-cask 'slack'
-cask 'skype'
+cask "slack"
+cask "skype"
 
 # Important tools
 cask "bitwarden"
@@ -42,7 +48,7 @@ cask "mactex"
 cask "audacity"
 cask "sublime-text"
 brew "mkvtoolnix"
+brew "mas" #Mac App Store command-line interface
 
-brew "nghttp2"
-brew "openjdk"
-cask "open-in-code"
+# Mac App Store
+mas "Magnet", id: 441258766
