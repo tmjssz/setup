@@ -1,4 +1,10 @@
-# setup
+# Tim's Setup
+
+Getting started on a fresh macOS system.
+
+```sh
+sh ./run.sh
+```
 
 ## MacOS Preferences
 
