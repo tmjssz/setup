@@ -21,20 +21,28 @@ defaults write -g KeyRepeat -int 1
 
 ## Generate SSH keys
 
+Check [here for more details](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+
 ```sh
 ssh-keygen -t ed25519 -C "tmjssz@gmail.com"
 ```
 
-https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+Now we need to add the new SSH key to services.
 
-### Adding a new SSH key to your GitHub account
+* [GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+)
+* [GitLab](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account)
 
-https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+## Install Homebrew
 
-## Install HomeBrew
+Before installing [Homebrew](https://brew.sh/index_de), we need to install the CLI tools for Xcode:
+
+```sh
+xcode-select —-install
+```
+
+Now we can run the install command: 
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-
-https://brew.sh/index_de
