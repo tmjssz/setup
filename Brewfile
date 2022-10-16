@@ -48,6 +48,7 @@ cask "mactex"
 cask "audacity"
 cask "sublime-text"
 brew "mkvtoolnix"
+cask "kap"                                  # Screen capture animated gifs
 brew "mas" #Mac App Store command-line interface
 
 # Mac App Store
