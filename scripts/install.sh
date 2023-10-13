@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ## Xcode CLI tools
-xcode-select —-install
+xcode-select --install
 
 ## HomeBrew
 # https://brew.sh
