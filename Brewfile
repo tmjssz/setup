@@ -13,6 +13,7 @@ brew "git"                                  # Git version control tool
 cask "github"                               # Notion app
 cask "docker"                               # Docker container tools
 cask "iterm2"                               # Terminal Window app
+cask "zsh-autosuggestions"                  # Fish-like fast/unobtrusive autosuggestions for zsh
 cask "insomnia"                             # Request testing tool
 cask "visual-studio-code"                   # Visual Studio Code 
 brew "node"                                 # Nodejs language tools 
