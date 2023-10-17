@@ -6,11 +6,6 @@ Getting started on a fresh macOS system.
 sh ./run.sh
 ```
 
-To activate the Oh My Zsh autosuggestions plugin, add the following at the end of your .zshrc:
-
-```sh
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-```
 
 ## MacOS Preferences
 
