@@ -68,3 +68,4 @@ cask "kap"                                  # Screen capture animated gifs
 # Mac App Store
 brew "mas"                                  # Mac App Store command-line interface
 mas "Magnet", id: 441258766                 # OS tool to organize workspace
+mas "We Love Lights", id: 1479422551        # We Love Lights for Phillips Hue
