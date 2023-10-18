@@ -13,12 +13,15 @@ brew "git"                                  # Git version control tool
 cask "github"                               # Notion app
 cask "docker"                               # Docker container tools
 cask "iterm2"                               # Terminal Window app
-cask "zsh-autosuggestions"                  # Fish-like fast/unobtrusive autosuggestions for zsh
 cask "insomnia"                             # Request testing tool
 cask "visual-studio-code"                   # Visual Studio Code 
 brew "node"                                 # Nodejs language tools 
 brew "nvm"                                  # Node Version Manager
 brew "yarn"                                 # Dependency manager
+
+# Oh My Zsh plugins
+cask "zsh-autosuggestions"                  # Fish-like fast/unobtrusive autosuggestions for zsh
+cask "zsh-syntax-highlighting"              # Fish shell-like syntax highlighting for Zsh
 
 # Dev optionals
 brew "openjdk"                              # Open-source implementation of the Java platform
