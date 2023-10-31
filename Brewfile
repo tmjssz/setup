@@ -18,6 +18,7 @@ cask "visual-studio-code"                   # Visual Studio Code
 brew "node"                                 # Nodejs language tools 
 brew "nvm"                                  # Node Version Manager
 brew "yarn"                                 # Dependency manager
+brew "gnupg"                                # GNU Pretty Good Privacy (PGP) package
 
 # Oh My Zsh plugins
 cask "zsh-autosuggestions"                  # Fish-like fast/unobtrusive autosuggestions for zsh
