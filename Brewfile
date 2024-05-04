@@ -40,16 +40,20 @@ cask "google-backup-and-sync"               # Google backup and sync client
 cask "notion"                               # Notion app
 cask "deepl"                                # Translater
 cask "bitwarden"                            # Password manager
-cask "teamviewer"                           # Remote access tool
 cask "caffeine"                             # Prevent sleep mode and screen saver
+cask "teamviewer"                           # Remote access tool
 
 # Entertainment
 cask "yt-music"                             # YouTube Music: in-official Mac app
-cask "spotify"                              # Spotify music service
-cask "plex-media-server"                    # Plex media server
-cask "plex"                                 # Plex client app
-cask "vlc"                                  # Play-everything media player
 cask "sonos"                                # Sonos music app
+cask "spotify"                              # Spotify music service
+cask "vlc"                                  # Play-everything media player
+cask "plex"                                 # Plex client app
+# cask "plex-media-server"                  # Plex media server
+
+# Home Automation
+cask "home-assistant"                       # Home Assistant Companion app
+brew "syncthing"                            # Continuous file synchronization
 
 # Social
 cask "telegram"                             # Telegram messaging app
